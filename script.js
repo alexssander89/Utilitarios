@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     darkModeToggle.addEventListener("click", function() {
         body.classList.toggle("dark-mode");
+        darkModeToggle.style.transform = "rotate(360deg)";
     });
     
 });
